@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --main-color: #fcb700;
+    --back-color: #ffffff;
+    --parag-color: #2a2a2a;
+    --dark-red: #d01418;
+    --border-color: #6666662a;
+    --name-item: #0066c0;
+}
+
+body .gohome {
+    position: absolute;
+    top: 25px;
+    left: 50px;
+    text-decoration: none;
+    font-size: 20px;
+}
+body .updatpass{
+    width: 25%;
+    display: inline-block;
+    position: absolute;
+    top: 30%;
+    left: 3%;
+}
+body .updatpass form{
+    margin-top: 20px;
+}
+body .updatpass label{
+    display: block;
+    font-size: 20px;
+    margin-bottom: 5px;
+    color: #333;
+}
+body .updatpass input{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    outline: none;
+    margin-bottom: 15px;
+}
+body .container .hestory {
+    position: absolute;
+    right: 5%;
+    top: 30%;
+    width: 50%;
+}
+body .container .hestory h2{
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+body .container .hestory table tr th,
+body .container .hestory table td{
+    padding: 10px 30px;
+}
+body .container .hestory table {
+    width: 100%;
+    border-collapse: collapse;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+body .container .hestory table th {
+    background-color: var(--main-color);
+    padding: 15px;
+    text-align: left;
+    font-size: 18px;
+}
+body .container .hestory table td {
+    padding: 12px;
+    font-size: 16px;
+    color: var(--parag-color);
+}
+body .container .hestory table tr:nth-child(even) {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+body .container .hestory table tr:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+}
+
+/* Styles pour la table des informations utilisateur */
+body .container .userinfo {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 5%;
+    width: 60%;
+    text-align: center;
+}
+body .container .userinfo h2 {
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+body .container .userinfo table {
+    width: 100%;
+    border-collapse: collapse;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+body .container .userinfo table th {
+    background-color: var(--main-color);
+    padding: 15px;
+    text-align: left;
+    font-size: 18px;
+}
+body .container .userinfo table td {
+    padding: 12px;
+    font-size: 16px;
+    color: var(--parag-color);
+}
+body .container .userinfo table tr:nth-child(even) {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+body .container .userinfo table tr:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+}
